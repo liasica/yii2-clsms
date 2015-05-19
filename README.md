@@ -2,6 +2,8 @@
 ========
 创蓝文化短信网关接口
 
+[![Latest Stable Version](https://poser.pugx.org/liasica/yii2-clsms/v/stable)](https://packagist.org/packages/liasica/yii2-clsms)[![Total Downloads](https://poser.pugx.org/liasica/yii2-clsms/downloads)](https://packagist.org/packages/liasica/yii2-clsms)[![Latest Unstable Version](https://poser.pugx.org/liasica/yii2-clsms/v/unstable)](https://packagist.org/packages/liasica/yii2-clsms)[![License](https://poser.pugx.org/liasica/yii2-clsms/license)](https://packagist.org/packages/liasica/yii2-clsms)
+
 Installation
 ------------
 
