@@ -24,10 +24,38 @@ or add
 to the require section of your `composer.json` file.
 
 
-Usage
+使用方法
 -----
-
-Once the extension is installed, simply use it in your code by  :
-
+1.配置
 ```php
-<?= \liasica\clsms\AutoloadExample::widget(); ?>```
+'components' => [
+  ...
+  'clsms'        => [
+    'class'        => 'liasica\clsms\Sdk',
+    'account'      => 'your account',
+    'pswd'         => 'your password',
+    'sendUrl'      => 'your HttpSendSM',
+    'batchSendUrl' => 'your HttpBatchSendSM',
+    'signature'    => 'your signature',
+    'tpl1'         => 'your tpl1',
+    'tpl2'         => 'your tpl2',
+    'tpl3'         => 'your tpl3'
+  ],
+]
+```
+
+2.发送消息
+```php
+$clsms        = Yii::$app->clsms;
+$clsms->code  = 'your code';
+$clsms->phone = 'your phone number';
+$clsms->sendMessage($clsms->tpl1, TRUE);
+```
+
+3.获取发送的code
+```php
+$clsms        = Yii::$app->clsms;
+$clsms->phone = 'your phone';
+$codeArr      = $clsms->getCode();
+var_dump($codeArr);
+```
