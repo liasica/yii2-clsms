@@ -1,21 +1,26 @@
 {
-    "name": "yii2-clsms/yii2-clsms",
-    "description": "创蓝文化短信网关接口",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension","sms","chuanglan"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "liasica",
-            "email": "magicrolan@gmail.com"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "liasica\\clsms\\": ""
-        }
+  "name": "liasica/yii2-clsms",
+  "description": "创蓝文化短信网关接口",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "sms",
+    "chuanglan"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "liasica",
+      "email": "magicrolan@gmail.com"
     }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "liasica\\clsms\\": ""
+    }
+  }
 }
