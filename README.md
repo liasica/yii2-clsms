@@ -6,8 +6,10 @@
 
 版本
 -----------
+```
 dev：开发版，bug较多
 release：正式发布版，bug较少
+```
 
 安装
 ------------
@@ -72,7 +74,7 @@ var_dump($codeArr);
 
 反馈或者贡献代码
 --------------
-您可以在[这里](https://github.com/liasica/yii2-clsms/issues给我提出在使用中碰到的问题或Bug. 我会在第一时间回复您并修复.
+您可以在[这里](https://github.com/liasica/yii2-clsms/issues)给我提出在使用中碰到的问题或Bug. 我会在第一时间回复您并修复.
 
 您可以发送邮件`magicrolan@qq.com`或`magicrolan@gmail.com`也可以加我QQ`100408045`给我并且说明您的问题.
 
