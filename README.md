@@ -19,17 +19,17 @@ release：正式发布版，bug较少
 直接运行
 
 ```
-php composer.phar require --prefer-dist yii2-clsms/yii2-clsms "*"
+php composer.phar require --prefer-dist liasica/yii2-clsms "*"
 ```
 or
 ```
-composer require --prefer-dist yii2-clsms/yii2-clsms "*"
+composer require --prefer-dist liasica/yii2-clsms "*"
 ```
 
 或者添加
 
 ```
-"yii2-clsms/yii2-clsms": "*"
+"liasica/yii2-clsms": "*"
 ```
 
 到你项目的 `composer.json` 中.

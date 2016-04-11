@@ -8,11 +8,6 @@
     "sms",
     "chuanglan"
   ],
-  "support": {
-    "issues": "https://github.com/liasica/yii2-clsms/issues",
-    "wiki": "https://github.com/liasica/yii2-clsms/wiki",
-    "source": "https://github.com/liasica/yii2-clsms"
-  },
   "license": "MIT",
   "authors": [
     {
@@ -22,6 +17,9 @@
   ],
   "require": {
     "yiisoft/yii2": "*"
+  },
+  "require-dev": {
+    "liasica/yii2-helpers": "dev-master"
   },
   "autoload": {
     "psr-4": {
